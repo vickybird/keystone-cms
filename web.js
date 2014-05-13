@@ -19,7 +19,7 @@ keystone.init({
 
 });
 
-require('/.models');
+require('./models');
 
 keystone.set('routes', require('./routes'));
 

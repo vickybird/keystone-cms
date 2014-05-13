@@ -8,7 +8,7 @@ keystone.pre('routes', middleware.initLocals);
 keystone.pre('render', middleware.flashMessages);
 
 // Handle 404 Errors
-keystone.et('404', function(req, res, next) {
+keystone.get('404', function(req, res, next) {
   res.nofound();
 });
 
