@@ -9,7 +9,7 @@ keystone.pre('render', middleware.flashMessages);
 
 // Handle 404 Errors
 keystone.get('404', function(req, res, next) {
-  res.nofound();
+  res.notfound();
 });
 
 // Handle other errors
