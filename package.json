@@ -1,0 +1,17 @@
+{
+  "name": "keystone-cms",
+  "version": "0.1.0",
+  "description": "Trying out KeystoneJs for CMS.",
+  "main": "web.js",
+  "private": true,
+  "dependencies": {
+    "keystone": "~0.2.15",
+    "underscore": "~1.6.0"
+  },
+  "engines": {
+    "node": "0.10.25"
+  },
+  "scripts": {
+    "start": "web.js"
+  }
+}
