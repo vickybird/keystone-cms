@@ -21,6 +21,8 @@ keystone.init({
 
 require('./models');
 
+keystone.set('cloudinary config', process.env.CLOUDINARY_URL);
+
 keystone.set('routes', require('./routes'));
 
 keystone.start();
