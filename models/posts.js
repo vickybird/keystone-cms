@@ -22,5 +22,5 @@ Post.add({
   }
 });
 
-Post.defaultColumns = 'ttle, state|20%, author, publishedAt|15%';
+Post.defaultColumns = 'title, state|20%, author, publishedAt|15%';
 Post.register();

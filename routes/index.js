@@ -31,5 +31,6 @@ var routes = {
 exports = module.exports = function(app) {
   
   app.get('/', routes.views.index);
+  app.get('/post/:post', routes.views.post);
 
 }

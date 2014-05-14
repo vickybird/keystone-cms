@@ -1,0 +1,9 @@
+extends ../layouts/base.jade
+
+block content
+  h1= post.title
+  h4 by #{post.author.name.first} #{post.author.name.last}, #{post.createdAt}
+  img(src=post.image.secure_url)
+  div!= post.importantStats
+  div!= post.content.brief
+  div !{post.content.extended}
